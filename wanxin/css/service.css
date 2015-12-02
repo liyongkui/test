@@ -1,0 +1,143 @@
+/*!
+ * 服务管理
+ * 
+ * 
+ */
+ /*社保缴纳地选择*/
+ .clear{
+  clear: both;
+ }
+ .fl{
+  float: left;
+ }
+
+ .col-xs-4 .social-area .form-control{
+    margin-left: 5px;
+    width: 70px;
+    padding: 0px;
+ }
+.col-xs-4 .social-base  .form-control{
+  width: 98px;
+ }
+ .col-xs-4 .social-base .social-base-line{
+  margin: 5px 3px;
+ }
+ .col-xs-2 .social-type .form-control{
+  width: 70px;
+  margin-left: 5px;
+ }
+ .tab{
+ }
+ .tab .tab-content{
+  float: left;
+  padding:10px 30px;
+  cursor: pointer;
+ }
+  .tab .tab-cur{
+      border-bottom: 3px solid #e02a27;
+  }
+  .progress{
+      text-align: center;
+      border: 1px solid #e7e7e7;
+      margin-bottom: 20px;
+  }
+  .progress .progress-content{
+    margin-left: 100px;
+
+  }
+  .progress .progress-content .progress-box{
+    margin: 10px 40px;
+    width:44px;
+    height:44px;
+    line-height:44px;
+    text-align:center;
+    background: url(../images/investjd.png);
+    float: left;
+  }
+/**添加*/
+ .social-table{
+    margin-bottom: 0px;
+ }
+  .social-add-tip{
+    margin-left: 30px;
+  }
+  .social-add-tip p{
+    margin-left: 23px;
+    color: #e02a27;
+  }
+  .social-add-tip .social-add-zhu{
+    margin-left: 0px;
+  }
+  .social-add-button{
+    float: right;
+    margin-bottom: 30px;
+  }
+  .social-add-button .btn{
+    margin-left: 10px;
+  }
+  .social-add-button .btn-default{
+    margin-right: 30px;
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  /**添加财务代账**/
+  .formbody {
+    padding: 40px;
+    overflow: hidden;
+  }
+  .forminfo li {
+      display: block;
+      margin-bottom: 13px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .forminfo li label {
+      width: 86px;
+      line-height: 34px;
+      display: block;
+      float: left;
+  }
+  .dfinput, .dfinput2 {
+      width: 345px;
+      height: 32px;
+      line-height: 32px;
+      border-top: solid 1px #a7b5bc;
+      border-left: solid 1px #a7b5bc;
+      border-right: solid 1px #ced9df;
+      border-bottom: solid 1px #ced9df;
+      text-indent: 10px;
+      float: left;
+  }
+  .forminfo li i {
+      color: #7f7f7f;
+      padding-left: 20px;
+      font-style: normal;
+      line-height: 34px;
+      float: left;
+  }
+  .vocation, .usercity {
+      float: left;
+  }
+  .cityleft {
+      float: left;
+      padding-right: 10px;
+      _padding-right: 15px;
+  }
+  .cityright {
+      float: left;
+  }
+  .add-form-main{
+    background-color: #fff;
+    border-bottom:none;
+    padding-left: 0px;
+  }
+  .add-form-main .col-xs-6{
+    padding-left: 0px;
+  }
+  .forminfo textarea{
+    height: 200px;
+    width: 550px;
+  }
+  .add-form-main .pay-month{
+    margin-right: 24px;
+  }

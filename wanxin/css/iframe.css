@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    padding: 0;
+    margin: 0;
+    font: 12px/18px "Lantinghei SC","Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ul, li, dl, dt, dd, p, form, h1, h2, h3, h4, h5, h6, i {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.formbody {
+    padding: 40px;
+    overflow: hidden;
+}
+.forminfo li {
+    display: block;
+    margin-bottom: 13px;
+    width: 100%;
+    overflow: hidden;
+}
+.forminfo li label {
+    width: 86px;
+    line-height: 34px;
+    display: block;
+    float: left;
+}
+.dfinput, .dfinput2 {
+    width: 345px;
+    height: 32px;
+    line-height: 32px;
+    border-top: solid 1px #a7b5bc;
+    border-left: solid 1px #a7b5bc;
+    border-right: solid 1px #ced9df;
+    border-bottom: solid 1px #ced9df;
+    text-indent: 10px;
+    float: left;
+}
+.forminfo li i {
+    color: #7f7f7f;
+    padding-left: 20px;
+    font-style: normal;
+    line-height: 34px;
+    float: left;
+}
+.vocation, .usercity {
+    float: left;
+}
+.cityleft {
+    float: left;
+    padding-right: 10px;
+    _padding-right: 15px;
+}
+.cityright {
+    float: left;
+}
+
+.stepflex{text-align:center;margin:10px auto 30px auto}
+#sflex03{width:750px;height:40px}
+.stepflex dl{float:left;position:relative;width:130px;top:-5px;border-top:5px solid #ccc}
+dl.doing{border-top-color:#e02a27}
+.s-num{position:relative;margin:-15px auto 0;color:#fff;font-weight:700;width:23px;height:23px;background-image:url(../images/step2013.png);line-height:23px}
+.s-text{color:#ccc}
+.doing .s-num{background-position:-23px 0}
+.doing .s-text{color:#e02a27}
+.doing b,.doing s,.first s,.last b{width:5px;height:5px;position:absolute;line-height:0;font-size:0;top:-5px;background-image:url(../images/step2013.png);overflow:hidden}
+.last .s-num {
+    background-position: -68px 0;
+}
+.dis100 {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.tips{padding-left: 86px; font-size: 12px;font-weight: normal;color: #bbb;}
+.p-t-20 {
+    padding-top: 20px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+
